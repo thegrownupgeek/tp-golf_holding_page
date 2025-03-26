@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Tour Performance Golf
 ---
 
 # Tour Performance Golf: Redefining the Golf Experience
