@@ -1,0 +1,11 @@
+# Site settings
+title: Tour Performance Golf
+description: Revolutionizing Golf in Devon
+theme: jekyll-theme-cayman
+
+# Optional: GitHub Pages settings
+github:
+  is_project_page: false
+
+# Placeholder logo (optional)
+logo: /assets/img/placeholder-logo.png
