@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tour Performance Golf
+title: Home
 ---
 
 # Tour Performance Golf: Redefining the Golf Experience
@@ -8,6 +8,13 @@ title: Tour Performance Golf
 ## Precision. Performance. Passion.
 
 Tour Performance Golf is disrupting the traditional golf landscape, bringing cutting-edge technology and expert precision to golfers in Devon and beyond.
+
+<div class="services-bar">
+  <span>Indoor Golf</span> | 
+  <span>Fitting & Tuition</span> | 
+  <span>Club Makers</span> | 
+  <span>Golf Shop</span>
+</div>
 
 ### Our Offerings
 
@@ -35,7 +42,11 @@ We're launching soon to revolutionize golf in Devon. Stay tuned for our grand op
 
 📧 **Email**: [admin@tp-golf.co.uk](mailto:admin@tp-golf.co.uk)
 
+#### Join Our Golf Revolution
 
+Sign up for exclusive updates and be the first to experience the future of golf:
+
+[Subscribe to Updates](#){: .btn .btn-primary}
 
 ---
 
