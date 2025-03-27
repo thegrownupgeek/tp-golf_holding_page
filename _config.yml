@@ -9,3 +9,15 @@ github:
 
 # Placeholder logo (optional)
 logo: /assets/img/logo.png
+
+# Site settings
+title: Tour Performance Golf
+description: Tour Performace Golf - Revolutionizing Golf in Devon
+theme: jekyll-theme-cayman
+
+# Optional: GitHub Pages settings
+github:
+  is_project_page: false
+
+# Logo
+logo: /assets/img/tour-performance-golf-logo.png
