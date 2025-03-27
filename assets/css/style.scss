@@ -3,11 +3,20 @@
 
 @import "{{ site.theme }}";
 
+/* Color scheme based on logo: dark green (#2C5234) and gold (#C6A76A) */
+
+:root {
+    --tpg-green: #2C5234;
+    --tpg-gold: #C6A76A;
+    --tpg-light: #f8f5f0;
+    --tpg-dark: #212121;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+    color: var(--tpg-dark);
+    background-color: var(--tpg-light);
 }
 
 .wrapper {
@@ -17,16 +26,21 @@ body {
 }
 
 header {
-    background-color: #2c3e50;
-    color: white;
+    background-color: var(--tpg-green);
+    color: var(--tpg-gold);
     text-align: center;
     padding: 40px 20px;
     border-radius: 10px;
 }
 
 header h1 {
-    color: white;
+    color: var(--tpg-gold);
     margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.project-name, .project-tagline {
+    color: var(--tpg-gold) !important;
 }
 
 section {
@@ -38,30 +52,61 @@ section {
 
 .btn {
     display: inline-block;
-    background-color: #3498db;
-    color: white;
+    background-color: var(--tpg-green);
+    color: var(--tpg-gold);
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    border: 2px solid var(--tpg-gold);
 }
 
 .btn:hover {
-    background-color: #2980b9;
+    background-color: var(--tpg-gold);
+    color: var(--tpg-green);
 }
 
-h2, h3 {
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
+.main-content h1, .main-content h2, .main-content h3, 
+.main-content h4, .main-content h5, .main-content h6 {
+    color: var(--tpg-green);
+    border-bottom: 2px solid var(--tpg-gold);
     padding-bottom: 10px;
+    margin-top: 1.5rem;
+}
+
+a {
+    color: var(--tpg-green);
+}
+
+a:hover {
+    color: var(--tpg-gold);
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: var(--tpg-green);
+    color: var(--tpg-gold);
     margin-top: 20px;
     border-radius: 10px;
+}
+
+footer a {
+    color: var(--tpg-gold);
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Main page banner overrides */
+.page-header {
+    background-color: var(--tpg-green);
+    background-image: linear-gradient(120deg, var(--tpg-green), #3a6a44);
+}
+
+.site-footer {
+    border-top: solid 1px var(--tpg-gold);
 }
 
 /* Responsive Design */
@@ -84,4 +129,23 @@ h3 {
 h3 emoji {
     margin-right: 10px;
     font-size: 1.5em;
+}
+
+/* Services bar styling (like in the logo) */
+.services-bar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    padding: 15px;
+    background-color: var(--tpg-green);
+    color: var(--tpg-gold);
+    border-radius: 5px;
+}
+
+.services-bar span {
+    margin: 0 15px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
